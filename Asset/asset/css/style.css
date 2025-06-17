@@ -1,0 +1,76 @@
+.non-radius{
+    border-radius: 0px;
+}
+
+
+.jumbg{
+	color:rgb(255, 255, 255);
+	height: 100%;
+	background-image: url(../img/doscom.jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+
+.jumbg2{
+	color:rgb(255, 255, 255);
+	height: 100%;
+	background-image: url(../img/dn.jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+
+.judulkiri{	
+    padding-right: 5px;
+}
+
+.ratakiri{	
+    text-align: justify;
+}
+
+.ftrsize{	
+    font-size: 11pt;
+}
+
+.glipsdg{	
+    font-size: 65pt;
+}
+
+.teksdw{
+	text-shadow: 2px 2px 6px #000;
+}
+
+.tekstit{
+	color: #012554;margin-bottom: 0px;text-align: center;
+}
+
+.imgukmdetail{
+	width:100%;float:left;margin-right:15px;margin-bottom:15px;
+}
+
+.img200{
+	height:200px;
+}
+
+
+.frmtngh{
+    margin: 95px 1px 1px;
+}
+
+.warnarows{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.bgbody{
+	background: url(../img/doscom.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+}
