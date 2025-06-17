@@ -1,0 +1,159 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    background: white;
+    padding: 30px 40px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 700;
+    color: #555;
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1.4rem;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #1abc9c;
+    outline: none;
+    box-shadow: 0 0 6px #1abc9c;
+}
+
+table.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.4rem;
+    text-align: center;
+    border-spacing: 0;
+}
+
+/* Untuk isi tabel tetap ada garis */
+table.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Hilangkan garis pada baris atribut/header */
+table.table thead th {
+    border: none;
+    background-color: white; /* atau warna background tabel kamu */
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+
+/* Tambahan gaya opsional */
+table.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.back-button {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #999;
+    color: #fff;
+}
+
+
+button {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #1abc9c;
+    color: white;
+    padding: 12px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1abc9c;
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px 15px;
+        padding: 25px 20px;
+    }
+}
+
+/* Tombol Mendaftar Anggota UKM */
+.daftar-button {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+/*tombol*/
+.daftar-button a {
+    background-color: #1abc9c;
+    color: white;
+    padding: 14px 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.daftar-button a:hover {
+    background-color: #16a085;
+    transform: scale(1.03);
+}
